@@ -1,6 +1,1 @@
-import './style.css'
-
-function component() {
-    
-  }
-  
+import './style.css';
