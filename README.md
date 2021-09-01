@@ -2,7 +2,9 @@
 
 > In this project I will create a Leaderboard list app, using webpack and ES6 features,and consume the Leaderboard API using JavaScript async and await functions.
 
-![screenshot](./app_screenshot.png)
+![Screen Shot 2021-08-31 at 14 34 56](https://user-images.githubusercontent.com/10905837/131506971-c64f200e-ad5e-4a53-873f-93454e6adb68.png)
+
+
 
 Additional description about the project and its features.
 
