@@ -13,7 +13,7 @@ body {
 
 .header {
   height: 100px;
-  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+  text-shadow: 0 0 3px #f00, 0 0 5px #00f;
 }
 
 .recentScore {
@@ -25,6 +25,7 @@ tbody tr:nth-child(odd) {
   background-color: #4c8bf5;
   color: #fff;
 }
+
 button {
   box-shadow: 5px 5px;
 }
