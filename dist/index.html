@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link property="stylesheet" type="text/css" href="style.css" />
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -23,7 +23,9 @@
         <div class="scoreboard w-50">
           <div class="recentScore d-flex justify-content-between">
             <h2>Recent scores</h2>
-            <button class="btn btn-outline-dark">Refresh</button>
+            <button class="btn btn-outline-dark" id="refreshScores">
+              Refresh
+            </button>
           </div>
           <table class="table border border-dark">
             <thead class="d-none">
@@ -31,20 +33,7 @@
                 <td>User</td>
               </tr>
             </thead>
-            <tbody>
-              <tr>
-                <td>Name: 100</td>
-              </tr>
-              <tr>
-                <td>Name: 35</td>
-              </tr>
-              <tr>
-                <td>Name: 45</td>
-              </tr>
-              <tr>
-                <td>Name: 125</td>
-              </tr>
-            </tbody>
+            <tbody></tbody>
           </table>
         </div>
         <div class="form w-50 h-100 d-inline-block">
@@ -56,6 +45,7 @@
                 type="text"
                 class="form-control border border-dark"
                 id="name"
+                required
                 placeholder="Add your name"
               />
             </div>
@@ -65,10 +55,13 @@
                 class="form-control border border-dark"
                 id="score"
                 placeholder="Add your score"
+                required
               />
             </div>
 
-            <button type="submit" class="btn btn-outline-dark">Submit</button>
+            <button type="submit" class="btn btn-outline-dark" id="submitScore">
+              Submit
+            </button>
           </form>
         </div>
       </div>
