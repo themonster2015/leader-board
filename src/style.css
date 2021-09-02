@@ -4,6 +4,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: bisque;
 }
 
 .container {
@@ -12,9 +13,23 @@ body {
 
 .header {
   height: 100px;
+  text-shadow: 0 0 3px #f00, 0 0 5px #00f;
 }
 
 .recentScore {
   padding: 0;
-  margin: 0;
+  margin-bottom: 15px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #4c8bf5;
+  color: #fff;
+}
+
+button {
+  box-shadow: 5px 5px;
+}
+
+.top-field {
+  margin-top: 25px;
 }

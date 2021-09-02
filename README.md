@@ -1,19 +1,16 @@
 # Leader Board
 
-> In this project I will create a Leaderboard list app, using webpack and ES6 features,and consume the Leaderboard API using JavaScript async and await functions.
+> In this project I will create a Leaderboard list app, using webpack and ES6 features,and consume the [Leaderboard API](https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3) using JavaScript async and await functions.
 
-![Screen Shot 2021-08-31 at 14 34 56](https://user-images.githubusercontent.com/10905837/131506971-c64f200e-ad5e-4a53-873f-93454e6adb68.png)
-
-
+![Screen Shot 2021-09-02 at 13 15 49](https://user-images.githubusercontent.com/10905837/131834404-d2f54308-8247-41f6-ba13-b21f919be0d3.png)
 
 
-Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML 5
+- CSS 3
+- JavaScript
 
 ## Live Demo
 
@@ -22,25 +19,32 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Node.js
+- npm
 ### Setup
 
+Clone the repository with:
+
+```
+git clone https://github.com/themonster2015/leader-board.git
+```
+
 ### Install
-
+To install all dependencies run:
+```
+npm install 
+```
 ### Usage
+To use the application run the next commands:
+```
+npm run build
 
-### Run tests
-
-### Deployment
-
-
+npm start
+```
 
 ## Authors
 
